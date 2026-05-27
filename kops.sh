@@ -45,12 +45,12 @@ kops validate cluster --wait 10m
 
 Suggestions:
  * list clusters with: kops get cluster
- * edit this cluster with: kops edit cluster reyaz.k8s.local
- * edit your node instance group: kops edit ig --name=reyaz.k8s.local nodes-ap-south-1a
- * edit your control-plane instance group: kops edit ig --name=reyaz.k8s.local control-plane-ap-south-1a
+ * edit this cluster with: kops edit cluster babul.k8s.local
+ * edit your node instance group: kops edit ig --name=babul.k8s.local nodes-ap-south-1a
+ * edit your control-plane instance group: kops edit ig --name=babul.k8s.local control-plane-ap-south-1a
 
 
-kops delete cluster --name reyaz.k8s.local --yes
+kops delete cluster --name babul.k8s.local --yes
 
 
 
